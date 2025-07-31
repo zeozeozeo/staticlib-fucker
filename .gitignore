@@ -1,0 +1,5 @@
+/target
+*_objs
+*.lib
+*.obj
+/.vscode
