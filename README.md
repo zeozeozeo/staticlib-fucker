@@ -2,6 +2,14 @@
 
 A utility for mangling names in static object files. Mainly useful for leakage of non-exported symbols in Rust static libraries. (see https://github.com/rust-lang/rust/issues/104707)
 
+# Installation
+
+```bash
+cargo install staticlib-fucker
+```
+
+or grab one of the [Releases](https://github.com/zeozeozeo/staticlib-fucker/releases)
+
 # Usage
 
 ```bash
