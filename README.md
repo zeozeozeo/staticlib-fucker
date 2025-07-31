@@ -2,7 +2,7 @@
 
 A utility for mangling names in static object files. Mainly useful for leakage of non-exported symbols in Rust static libraries. (see https://github.com/rust-lang/rust/issues/104707).
 
-This is to prevent collisions of exported symbols when linking multiple Rust static libraries[1]:
+This is to prevent collisions of exported symbols when linking multiple Rust static libraries[^1]:
 
 ```
 wesl_c.lib(wesl_c.1ichu27y6kwsyom9vxw9s5df9.rcgu.o) : error LNK2005: __rust_no_alloc_shim_is_unstable already defined in wgpu_native.lib(wgpu_native.bxltiha8spj938iuaxui54rnl.rcgu.o)
@@ -49,4 +49,4 @@ Options:
   -V, --version            Print version
 ```
 
-[1]: https://alanwu.space/post/symbol-hygiene/
+[^1]: https://alanwu.space/post/symbol-hygiene/
