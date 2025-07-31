@@ -2,6 +2,17 @@
 name = "staticlib-fucker"
 version = "0.1.0"
 edition = "2024"
+description = "A utility for mangling names in static object files. Mainly useful for leakage of non-exported symbols in Rust static libraries."
+license = "Unlicense"
+homepage = "https://github.com/zeozeozeo/staticlib-fucker"
+repository = "https://github.com/zeozeozeo/staticlib-fucker"
+readme = "README.md"
+keywords = ["staticlib", "mangler", "leakage", "cli", "utility"]
+categories = [
+    "command-line-utilities",
+    "development-tools::ffi",
+    "development-tools",
+]
 
 [dependencies]
 anyhow = "1.0.98"
